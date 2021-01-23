@@ -1,5 +1,5 @@
 FROM  alpine:latest
-ARG   XMRIG_VERSION=v5.8.2
+ARG   XMRIG_VERSION=v6.7.2
 
 RUN   adduser -S -D -H -h /xmrig miner
 RUN   apk --no-cache upgrade && \
